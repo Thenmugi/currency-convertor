@@ -1,0 +1,1 @@
+This is a simple Currency Converter application built using HTML5, CSS3, Tailwind CSS, and JavaScript. The application allows users to convert an amount from one currency to another using real-time exchange rates.
