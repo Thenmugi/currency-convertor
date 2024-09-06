@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="tailwind.config.js">
+    <title>Currency Convertor</title>
+</head>
+<body class="h-screen p-0 m-0 " style="background-image: url(images/images\ \(1\).jpg);background-repeat: no-repeat;background-size: cover;background-attachment: fixed;">
+    <div class="w-3/6 h-4/6 mx-auto bg-black my-auto relative top-28 border border-gray-950 rounded-md md:h-3/6">
+        <div>
+            <p class="text-center text-amber-400 text-2xl p-3 font-semibold">CURRENCY CONVERTOR</p>
+        </div>
+        <div class="flex p-8 gap-x-10 w-full">
+            <div  class="flex flex-col gap-7 w-1/2">
+                <select name="Currency1" id="Currency1" class="currency w-5/6 bg-amber-400 h-10 rounded-md md:w-5/6" >
+                    <option value="AUD" class="font-semibold">AUD</option>
+                </select>
+                <input type="number" id="input" class="h-10 font-semibold w-5/6 md:w-5/6">
+            </div>
+            <div class="flex flex-col gap-7 w-1/2" >
+                <select name="Currency2" id="Currency2" class="currency w-5/6 bg-amber-400 h-10 rounded-md md:w-5/6">
+                    <option value="AUD" class="font-semibold">AUD</option>
+                </select>
+                <input type="text" id="result" class="h-10 w-5/6 font-semibold md:w-5/6">
+            </div>
+        </div>
+        <div  id="error" class="error text-red-600 text-start mx-8">
+        </div>
+        <div class="w-3/6 m-auto md:w-3/6">
+            <button id="btn" class="bg-amber-400 h-10 px-3 text-center font-semibold w-full rounded-lg mx-auto md:px-4">CONVERT</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
